@@ -1,0 +1,9 @@
+DESCRIPTION="Chinese phonetic input method library"
+HOMEPAGE="http://chewing.csie.net/"
+SRC_URI="http://chewing.csie.net/download/${PN}/${P}.tar.bz2"
+PATCH_URI="0.3.3-headers-install.patch"
+
+PKG_NAMES="${PN}3 ${PN}-common ${PN}-devel"
+libchewing3_CONTENTS="usr/bin/cygchewing-3.dll"
+libchewing_common_CONTENTS="usr/share/"
+libchewing_devel_CONTENTS="usr/include/ usr/lib/"

@@ -1,0 +1,7 @@
+category: Text
+requires:
+external-source: libchewing
+sdesc: "Chinese phonetic input method library (data)"
+ldesc: "libchewing is derived from Chewing input method, a xcin module 
+focusing on intelligent phonetic processing by Lu-chuan Kung (lckung) 
+and Kang-pen Chen (kpchen) during 1999-2001."
