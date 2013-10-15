@@ -1,0 +1,16 @@
+NAME="libchewing"
+VERSION=0.3.5
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="Chinese phonetic input method library"
+DESCRIPTION="libchewing is derived from Chewing input method, a xcin module
+focusing on intelligent phonetic processing by Lu-chuan Kung (lckung) and
+Kang-pen Chen (kpchen) during 1999-2001."
+HOMEPAGE="http://chewing.im/"
+SRC_URI="https://chewing.googlecode.com/files/${NAME}-${VERSION}.tar.bz2"
+
+PKG_NAMES="${NAME}3 ${NAME}-common ${NAME}-devel"
+libchewing3_REQUIRES="libchewing-common"
+libchewing3_CONTENTS="usr/bin/cygchewing-3.dll"
+libchewing_common_CONTENTS="usr/share/"
+libchewing_devel_CONTENTS="usr/include/ usr/lib/"
